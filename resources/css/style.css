@@ -274,6 +274,14 @@ header .mobile {
 }
 
 @media only screen and (max-width: 890px) {
+  #features-section {
+    padding: 1rem;
+  }
+
+  .feature {
+    margin: 0px .5rem;
+    padding: 1rem;
+  }
   .feature h2 {
     font-size: 1.125rem;
     line-height: 1.3;
@@ -324,11 +332,12 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 600px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
   }
@@ -364,7 +373,8 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
+  display:flex;
   padding: 5rem 0;
 }
 
