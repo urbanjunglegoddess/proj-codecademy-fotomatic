@@ -403,9 +403,12 @@ header .mobile {
   }
 
   #quotes-section quote-citation {
-    display: block;
+    display:block;
     padding-top: 1rem;
     margin: auto;
+  }
+  #quotes-section img{
+    display: flex;
   }
 }
 
