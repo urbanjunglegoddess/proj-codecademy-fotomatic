@@ -99,10 +99,10 @@ header .mobile {
     display: block;
   }
   header .conteent {
-    justify-content: space-between;
+   padding:1rem 1rem;
   }
 }
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 600px) {
   header .desktop {
     display: none;
   }
@@ -137,12 +137,13 @@ header .mobile {
 
 /* Sign Up Section */
 #sign-up-section {
+  display: flex;
+  justify-content: flex-start;
   background-image: url("/resources/images/banner-landingpage.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  display: flex;
-  justify-content: center;
+  
   align-items: center;
   height: 43.5rem;
   margin: 0;
