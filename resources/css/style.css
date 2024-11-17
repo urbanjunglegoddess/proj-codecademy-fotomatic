@@ -81,6 +81,10 @@ nav .button {
   color: white;
 }
 
+nav li:last-child {
+ display:none;
+}
+
 header .icon {
   width: 1rem;
   padding-left: .75rem;
@@ -90,6 +94,14 @@ header .mobile {
   display: none;
 }
 
+@media only screen and (max-width: 895px) {
+  nav li:last-child {
+    display: block;
+  }
+  header .conteent {
+    justify-content: space-between;
+  }
+}
 @media only screen and (max-width: 760px) {
   header .desktop {
     display: none;
