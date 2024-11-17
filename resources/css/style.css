@@ -375,6 +375,7 @@ header .mobile {
 
 #quotes-section .content {
   display:flex;
+  justify-content: center;
   padding: 5rem 0;
 }
 
@@ -391,8 +392,8 @@ header .mobile {
   height: 1.875rem;
 }
 
-@media only screen and (max-width: 760px) {
-  #quotes-section content {
+@media only screen and (max-width: 600px) {
+  #quotes-section .content {
     padding: 1.875rem .625rem;
   }
 
