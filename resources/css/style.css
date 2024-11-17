@@ -4,8 +4,12 @@ html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
+
 a{
   text-decoration: none;
+}
+li{
+  list-style-type: none;
 }
 
 .main-content {
@@ -81,9 +85,6 @@ nav .button {
   color: white;
 }
 
-nav li:last-child {
- display:none;
-}
 
 header .icon {
   width: 1rem;
